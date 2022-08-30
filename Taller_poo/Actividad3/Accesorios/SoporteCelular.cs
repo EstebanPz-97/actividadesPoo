@@ -4,15 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Actividad3.Hardwares
+namespace Actividad3.Perifericos
 {
-    internal abstract class Hardware
+    internal class SoporteCelular:Iaccesorio
     {
         public void Conectar()
         {
-            Console.WriteLine("conectar a la placa");
-
+            Console.WriteLine("Se conecto teclado por usb");
         }
-        public abstract void ConexionElectrica();
     }
 }

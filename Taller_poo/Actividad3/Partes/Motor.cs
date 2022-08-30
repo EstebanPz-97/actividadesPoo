@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Actividad3.Hardwares
 {
-    internal class Procesador :Hardware
+    internal class Motor :Parte
     {
         public override void ConexionElectrica()
         {

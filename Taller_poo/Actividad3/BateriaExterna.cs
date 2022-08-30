@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Actividad3
 {
-    internal class TagetExternal:Hardware , IPeriferico
+    internal class BateriaExterna:Parte , Iaccesorio
     {
         public override void ConexionElectrica()
         {

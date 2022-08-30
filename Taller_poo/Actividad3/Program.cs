@@ -3,9 +3,9 @@ using Actividad3.Computadores;
 using Actividad3.Perifericos;
 
 
-//crear perifericos
-IPeriferico periferico = new Teclado();
-IPeriferico periferico1 = new TagetExternal();
+//crear vehiculo
+Iaccesorio accesorio= new SoporteCelular();
+Iaccesorio accesorio1 = new BateriaExterna();
 
 
-Computador computadora = new Computador(periferico, periferico1);
+carro carro= new carro(accesorio, accesorio1);

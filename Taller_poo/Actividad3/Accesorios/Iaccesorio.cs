@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Actividad3.Perifericos
 {
-    internal class Teclado:IPeriferico
+    public interface Iaccesorio
     {
-        public void Conectar()
-        {
-            Console.WriteLine("Se conecto teclado por usb");
-        }
+        public void Conectar();
     }
 }

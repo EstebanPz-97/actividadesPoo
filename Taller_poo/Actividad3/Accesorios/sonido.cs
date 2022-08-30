@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Actividad3.Perifericos
 {
-    internal class Parlante : IPeriferico
+    internal class sonido : Iaccesorio
     {
         public void Conectar()
         {

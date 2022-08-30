@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Actividad3.Hardwares
 {
-    internal class Ram: Hardware
+    internal class Chasis: Parte
     {
         public override void ConexionElectrica()
         {
