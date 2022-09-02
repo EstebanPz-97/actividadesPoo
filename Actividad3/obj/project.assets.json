@@ -16,11 +16,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\mvc\\actividadesPoo\\Taller_poo\\Actividad3\\Actividad3.csproj",
+      "projectUniqueName": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\mvc\\actividadesPoo\\Actividad3\\Actividad3.csproj",
       "projectName": "Actividad3",
-      "projectPath": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\mvc\\actividadesPoo\\Taller_poo\\Actividad3\\Actividad3.csproj",
+      "projectPath": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\mvc\\actividadesPoo\\Actividad3\\Actividad3.csproj",
       "packagesPath": "C:\\Users\\esteb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\mvc\\actividadesPoo\\Taller_poo\\Actividad3\\obj\\",
+      "outputPath": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\mvc\\actividadesPoo\\Actividad3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

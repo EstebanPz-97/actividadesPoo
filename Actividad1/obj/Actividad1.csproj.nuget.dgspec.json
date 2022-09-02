@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\mvc\\actividadesPoo\\Taller_poo\\Actividad1\\Actividad1.csproj": {}
+    "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\mvc\\actividadesPoo\\Actividad1\\Actividad1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\mvc\\actividadesPoo\\Taller_poo\\Actividad1\\Actividad1.csproj": {
+    "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\mvc\\actividadesPoo\\Actividad1\\Actividad1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\mvc\\actividadesPoo\\Taller_poo\\Actividad1\\Actividad1.csproj",
+        "projectUniqueName": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\mvc\\actividadesPoo\\Actividad1\\Actividad1.csproj",
         "projectName": "Actividad1",
-        "projectPath": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\mvc\\actividadesPoo\\Taller_poo\\Actividad1\\Actividad1.csproj",
+        "projectPath": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\mvc\\actividadesPoo\\Actividad1\\Actividad1.csproj",
         "packagesPath": "C:\\Users\\esteb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\mvc\\actividadesPoo\\Taller_poo\\Actividad1\\obj\\",
+        "outputPath": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Esteban\\proyctos\\aps.net\\mvc\\actividadesPoo\\Actividad1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
