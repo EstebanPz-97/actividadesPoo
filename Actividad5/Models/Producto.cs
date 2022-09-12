@@ -6,17 +6,21 @@ using System.Threading.Tasks;
 
 namespace Actividad5.Models
 {
-    internal class Productos:Entity
+    public class Producto : Entity
     {
         public string Name { get; private set; }
-        public Tienda Tienda { get; private set; } 
+        public Tienda Tienda { get; private set; }
         public List<ProductoProveedor> ProductoProveedor { get; private set; }
-        
-        public Productos(string id, string name, Tienda tienda):base(id)
+
+        private Producto(string id, string name, Tienda tienda) : base(id)
         {
             Name = name;
             Tienda = tienda;
-            ProductoProveedor=new();
+            ProductoProveedor = new();
+        }
+        public static Producto Build(string id, string name, Tienda tienda)
+        {
+            return new Producto(id,name,tienda);
         }
         public void AddProvedor(string proveedorId)
         {
@@ -27,5 +31,6 @@ namespace Actividad5.Models
                     proveedorid:proveedorId));
         }
 
+       
     }
 }

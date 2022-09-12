@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Actividad5.Models
 {
-    internal class ProductoProveedor:Entity
+    public class ProductoProveedor:Entity
     {
         public string Productoid { get; private set; }
         public string Proveedorid { get; private set; }

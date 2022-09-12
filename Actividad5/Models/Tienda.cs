@@ -6,19 +6,23 @@ using System.Threading.Tasks;
 
 namespace Actividad5.Models
 {
-    internal class Tienda:Entity
+    public class Tienda:Entity
     {
         public string Name { get; private set; }
         public string Direccion { get; private set; }
-        public List <Productos> Productos { get; private set; }
+        public List <Producto> Productos { get; private set; }
 
-        public Tienda(string id, string name, string direccion):base(id)
+        private Tienda(string id, string name, string direccion):base(id)
         {
             Name = name;
             Direccion = direccion;
             Productos = new ();
         }
-        public void AddProducto(Productos productos)
+        public static Tienda Build(string id,string name, string direccion)
+        {
+            return new Tienda(id, name, direccion);
+        }
+        public void AddProducto(Producto productos)
         {
             this.Productos.Add(productos);
         }

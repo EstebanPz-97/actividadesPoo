@@ -6,14 +6,18 @@ using System.Threading.Tasks;
 
 namespace Actividad5.Models
 {
-    internal class Proveedores:Entity
+    public class Proveedores : Entity
     {
         public string NameProveedor { get; private set; }
         public List<ProductoProveedor> productoProveedor { get; private set; }
-        public Proveedores(string id, string nameproveedor):base(id)
+        private Proveedores(string id, string nameproveedor) : base(id)
         {
             NameProveedor = nameproveedor;
-            productoProveedor=new();
+            productoProveedor = new();
+        }
+        public static Proveedores Build(string id, string nameproveedor)
+        {
+            return new Proveedores(id, nameproveedor);
         }
         public void AddProductos(string productoId)
         {
